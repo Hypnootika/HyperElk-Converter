@@ -1,8 +1,7 @@
 import PyQt5
 from PyQt5 import QtWidgets, QtCore
 
-from HyperElk_idDump_ConverterUI import UiMainWindow
-from idDumpOrganizer import UiDumpOrganizer
+from HyperElk_idDump_ConverterUI import UiMainWindow, UiDumpOrganizer
 
 if __name__ == "__main__":
     import sys

@@ -106,3 +106,26 @@ class UiDumpOrganizer(object):
         self.add_entry_button.setText(_translate("dumpOrganizer", "Add Entry"))
         self.select_all_button.setText(_translate("dumpOrganizer", "Select all"))
         self.delete_entry_button.setText(_translate("dumpOrganizer", "Delete Entry"))
+
+    def open_file(self):
+        options = QtWidgets.QFileDialog.Options()
+        options |= QtWidgets.QFileDialog.ReadOnly
+        file_name, _ = QtWidgets.QFileDialog.getOpenFileName(None, "Open File", "", "Text Files (*.txt);;All Files (*)", options=options)
+        if file_name:
+            self.process_file(file_name)
+
+    def process_file(self, file_name):
+        # Read and process the input file
+        with open(file_name, 'r') as file:
+            lines = file.readlines()
+
+        # Create a model for activeItems
+        model = QtGui.QStandardItemModel()
+
+        # Add each entry to the model
+        for line in lines:
+            item = QtGui.QStandardItem(line.strip())
+            model.appendRow(item)
+
+        # Set the model to activeItems
+        self.activeItems.setModel(model)

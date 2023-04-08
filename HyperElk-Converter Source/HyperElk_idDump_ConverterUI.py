@@ -3,6 +3,7 @@ import re
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QFileDialog, QMessageBox, QWidget, QGridLayout, QPushButton, QLabel
+from idDumpOrganizer import UiDumpOrganizer
 
 
 class UiMainWindow(object):
@@ -18,7 +19,17 @@ class UiMainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.centralwidget.setEnabled(True)
         self.centralwidget.setObjectName("centralwidget")
+        self.menubar = QtWidgets.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 819, 21))
+        self.menubar.setObjectName("menubar")
+        MainWindow.setMenuBar(self.menubar)
+        self.dump_organizer_menu = QtWidgets.QMenu(self.menubar)
+        self.dump_organizer_menu.setObjectName("dump_organizer_menu")
+        self.menubar.addAction(self.dump_organizer_menu.menuAction())
         self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.open_organizer_action = QtWidgets.QAction(MainWindow)
+        self.open_organizer_action.setObjectName("open_organizer_action")
+        self.dump_organizer_menu.addAction(self.open_organizer_action)
         self.gridLayoutWidget.setGeometry(QtCore.QRect(10, 290, 801, 151))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.layout_button_grid = QtWidgets.QGridLayout(self.gridLayoutWidget)
@@ -161,8 +172,10 @@ class UiMainWindow(object):
         self.TalentTalent_button.clicked.connect(lambda: self.insert_text("Talent.{var_talent_name}"))
         self.SpellSpellButton.clicked.connect(lambda: self.insert_text("Spell.{var_spell_name}"))
         self.structure_button.clicked.connect(lambda: self.insert_text("public class {}"))
+        self.open_organizer_action.triggered.connect(self.open_organizer)
 
         self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
         MainWindow.setTabOrder(self.public_button, self.talent_id_button)
         MainWindow.setTabOrder(self.talent_id_button, self.talent_name_button)
@@ -178,6 +191,15 @@ class UiMainWindow(object):
         MainWindow.setTabOrder(self.spell_id_button, self.int_button)
         MainWindow.setTabOrder(self.int_button, self.TalentTalent_button)
         MainWindow.setTabOrder(self.TalentTalent_button, self.static_button)
+
+    def open_organizer(self):
+        self.dump_window = QtWidgets.QWidget()
+        uiD = UiDumpOrganizer()
+        uiD.setupUi(self.dump_window)
+        self.dump_window.show()
+
+        # Connect the open_file method to the open_organizer_action
+        self.open_organizer_action.triggered.connect(uiD.open_file)
 
     def hide_talents_buttons(self):
         # Hiding Talents if a Spell File is selected to void runtime errors
@@ -220,7 +242,9 @@ class UiMainWindow(object):
     def retranslateUi(self, MainWindow):
         # QT generated Code for translation
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "HyperElk idDump Converter"))
+        self.dump_organizer_menu.setTitle(_translate("MainWindow", "Dump-Organizer"))
+        self.open_organizer_action.setText(_translate("MainWindow", "Open"))
         self.sign_button.setText(_translate("MainWindow", "(\"\", );"))
         self.spell_name_button.setText(_translate("MainWindow", "Spell Name"))
         self.protected_button.setText(_translate("MainWindow", "protected"))
@@ -309,3 +333,5 @@ class UiMainWindow(object):
             with open(output_file_path, "w") as outfile:
                 outfile.write(formatted_content)
                 QMessageBox.information(None, "Success", "File generated successfully!")
+
+
