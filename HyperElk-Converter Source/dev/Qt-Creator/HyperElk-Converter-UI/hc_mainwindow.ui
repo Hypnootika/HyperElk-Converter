@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_window</class>
+ <widget class="QMainWindow" name="main_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>96</red>
+        <green>97</green>
+        <blue>99</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>80</red>
+        <green>81</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>43</red>
+        <green>43</green>
+        <blue>44</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>33</red>
+        <green>34</green>
+        <blue>34</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="HighlightedText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>186</red>
+        <green>96</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="127">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>208</red>
+        <green>208</green>
+        <blue>208</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>227</red>
+        <green>227</green>
+        <blue>227</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>160</red>
+        <green>160</green>
+        <blue>160</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>208</red>
+        <green>208</green>
+        <blue>208</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>51</green>
+        <blue>51</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>208</red>
+        <green>208</green>
+        <blue>208</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>46</red>
+        <green>47</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>46</red>
+        <green>47</green>
+        <blue>48</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>105</red>
+        <green>105</green>
+        <blue>105</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>29</red>
+        <green>84</green>
+        <blue>92</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="HighlightedText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>240</green>
+        <blue>240</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>53</red>
+        <green>54</green>
+        <blue>55</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>208</red>
+        <green>208</green>
+        <blue>208</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>128</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>96</red>
+        <green>97</green>
+        <blue>99</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>80</red>
+        <green>81</green>
+        <blue>82</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>43</red>
+        <green>43</green>
+        <blue>44</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>32</red>
+        <green>32</green>
+        <blue>33</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Highlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>29</red>
+        <green>84</green>
+        <blue>92</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="HighlightedText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>240</green>
+        <blue>240</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>53</red>
+        <green>54</green>
+        <blue>55</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>64</red>
+        <green>65</green>
+        <blue>66</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>208</red>
+        <green>208</green>
+        <blue>208</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>128</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 900 10pt &quot;Arial Black&quot;;
+</string>
+  </property>
+  <widget class="QWidget" name="central_wgt">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>299</y>
+      <width>711</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="grid_buttons">
+     <property name="spacing">
+      <number>4</number>
+     </property>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="button_talent_class">
+       <property name="text">
+        <string>Talent class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="button_talent_id">
+       <property name="text">
+        <string>Talent ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="button_talent_name_2">
+       <property name="text">
+        <string>Talent Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="button_debuff_class">
+       <property name="text">
+        <string>Debuff class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="button_spell_name">
+       <property name="text">
+        <string>Spell Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="button_spell_id">
+       <property name="text">
+        <string>Spell ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="button_static">
+       <property name="text">
+        <string>static</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="button_macro_class">
+       <property name="text">
+        <string>Macro class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="button_item_class">
+       <property name="text">
+        <string>Item class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="button_protected">
+       <property name="text">
+        <string>protected</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="button_spell_class">
+       <property name="text">
+        <string>Spell class</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="button_private">
+       <property name="text">
+        <string>private</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="button_var_spell_name">
+       <property name="text">
+        <string>Variable: Spell Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="button_talent_name">
+       <property name="text">
+        <string>Variable: Talent Name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="button_public">
+       <property name="text">
+        <string>public</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="button_buff_class">
+       <property name="text">
+        <string>Buff class</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>79</y>
+      <width>161</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_list">
+     <item>
+      <widget class="edit_mirror_list" name="listWidget">
+       <property name="dragDropMode">
+        <enum>QAbstractItemView::DropOnly</enum>
+       </property>
+       <property name="defaultDropAction">
+        <enum>Qt::TargetMoveAction</enum>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="gridSize">
+        <size>
+         <width>1</width>
+         <height>15</height>
+        </size>
+       </property>
+       <property name="selectionRectVisible">
+        <bool>true</bool>
+       </property>
+       <property name="sortingEnabled">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>729</x>
+      <y>10</y>
+      <width>161</width>
+      <height>62</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_browse">
+     <item>
+      <widget class="browseInput" name="button_browse_input">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+       <property name="content" stdset="0">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="browseOutput" name="button_browse_output">
+       <property name="text">
+        <string>Browse</string>
+       </property>
+       <property name="content" stdset="0">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>611</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_path">
+     <item>
+      <widget class="input_path" name="lineEdit">
+       <property name="content" stdset="0">
+        <string/>
+       </property>
+       <property name="IsEmpty" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="output:_path" name="lineEdit_2"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_label">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Input path:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Output path:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>711</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="vbox_boxedit">
+     <item>
+      <widget class="Converter" name="text_edit">
+       <property name="content_editbox" stdset="0">
+        <stringlist/>
+       </property>
+       <property name="IsValid" stdset="0">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menu_bar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>29</red>
+         <green>84</green>
+         <blue>92</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Highlight">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>29</red>
+         <green>84</green>
+         <blue>92</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::StrongFocus</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="defaultUp">
+    <bool>false</bool>
+   </property>
+   <widget class="QMenu" name="menu_open">
+    <property name="title">
+     <string>Open</string>
+    </property>
+    <widget class="QMenu" name="menuHyperElk_Organizer">
+     <property name="title">
+      <string>HyperElk-Organizer</string>
+     </property>
+     <addaction name="organizer_open"/>
+    </widget>
+    <addaction name="menuHyperElk_Organizer"/>
+   </widget>
+   <addaction name="menu_open"/>
+  </widget>
+  <action name="organizer_open">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>browseInput</class>
+   <extends>QPushButton</extends>
+   <header location="global">browseinput.h</header>
+   <slots>
+    <slot>read()</slot>
+    <slot>populate()</slot>
+    <slot>copyformated()</slot>
+    <slot>checkEmpty(IsEmpty)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>browseOutput</class>
+   <extends>QPushButton</extends>
+   <header location="global">browseoutput.h</header>
+   <slots>
+    <slot>populate()</slot>
+    <slot>checkValid()</slot>
+    <slot>constructOutputPath()</slot>
+    <slot>checkEmpty(IsEmpty)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>input_path</class>
+   <extends>QLineEdit</extends>
+   <header location="global">input_path.h</header>
+   <slots>
+    <slot>checkEmpty(bool)</slot>
+    <slot>populateList()</slot>
+    <slot>hasContent(bool)</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>output:_path</class>
+   <extends>QLineEdit</extends>
+   <header location="global">output:_path.h</header>
+   <slots>
+    <slot>hasContent(bool)</slot>
+    <slot>constructOutputPath()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>Converter</class>
+   <extends>QTextEdit</extends>
+   <header location="global">converter.h</header>
+   <slots>
+    <slot>hasContent()</slot>
+    <slot>generateOutput()</slot>
+    <slot>realTimeCopyList()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>edit_mirror_list</class>
+   <extends>QListWidget</extends>
+   <header location="global">edit_mirror_list.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>text_edit</sender>
+   <signal>textChanged()</signal>
+   <receiver>listWidget</receiver>
+   <slot>doItemsLayout()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>608</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>800</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_var_spell_name</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>81</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_talent_name</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>275</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_public</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>468</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_buff_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>638</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>641</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_spell_name</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>368</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>122</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_spell_id</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>400</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_spell_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>438</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>171</x>
+     <y>280</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_talent_name_2</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>253</x>
+     <y>367</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>239</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_talent_id</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>343</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>344</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_talent_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>297</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_private</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>415</x>
+     <y>367</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_protected</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>454</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_static</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>500</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_debuff_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>601</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>594</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_item_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_macro_class</sender>
+   <signal>clicked()</signal>
+   <receiver>text_edit</receiver>
+   <slot>generateOutput()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>701</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>682</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_browse_input</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>789</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>681</x>
+     <y>51</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_browse_output</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit_2</receiver>
+   <slot>constructOutputPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>86</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>666</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_browse_output</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit_2</receiver>
+   <slot>update()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>738</x>
+     <y>70</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>693</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit</sender>
+   <signal>editingFinished()</signal>
+   <receiver>lineEdit_2</receiver>
+   <slot>constructOutputPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>454</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>457</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
